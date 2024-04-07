@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingTop="25dp"
+    tools:context=".MainActivity">
+
+    <!--Edit text to enter Student's name-->
+    <EditText
+        android:id="@+id/StudentName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="Enter Student Name" />
+
+    <!--edit text to enter student's Priority-->
+    <EditText
+        android:id="@+id/Priority"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="Enter Priority i.e. Graduate, 4th Year, etc..."/>
+
+    <!--edit text to enter course name-->
+    <EditText
+        android:id="@+id/Course"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="Course Name" />
+
+
+    <!--button for adding new student-->
+    <Button
+        android:id="@+id/BtnAddStudent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="Add Student"
+        android:textAllCaps="false" />
+
+    <!--button for editing student-->
+    <Button
+        android:id="@+id/BtnEditStudent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="Edit Student"
+        android:textAllCaps="false" />
+
+    <!--button for editing student-->
+    <Button
+        android:id="@+id/BtnDeleteStudent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="Delete Student"
+        android:textAllCaps="false" />
+
+    <!--button for viewing list-->
+    <Button
+        android:id="@+id/BtnViewList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="View Waiting List"
+        android:textAllCaps="false" />
+
+</LinearLayout>
